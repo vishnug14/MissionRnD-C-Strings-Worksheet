@@ -13,20 +13,22 @@ Objectives of Strings-1 Lesson:
 
 */
 #include <stdio.h>
+#include<conio.h>
 #include "FunctionHeadersStrings1.h"
-
-int main(){
-
+void main(){
 	//Test KthIndexFromEnd 
-
 	//TestNumbertoStr
+	char *str1 = "the are all is well";
+	char *str2 = " who what";
+	char expected[2][31] = { { "the" }, { "is" } };
+	char **res = commonWords(str1, str2);
 
 	//removeSpaces
-
 	//StrWordsinRev
+
 
 	//commonWords
 
 
-	return 0;
+	_getch();
 }
