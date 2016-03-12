@@ -18,9 +18,10 @@ Objectives of Strings-1 Lesson:
 void main(){
 	//Test KthIndexFromEnd 
 	//TestNumbertoStr
+	int i;
 	char *str1 = "the are all is well";
 	char *str2 = " who what";
-	char expected[2][31] = { { "the" }, { "is" } };
+	char expected[2][31] = { { "the" } };
 	char **res = commonWords(str1, str2);
 
 	//removeSpaces
